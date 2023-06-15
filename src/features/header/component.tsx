@@ -9,7 +9,7 @@ export const Header = component$(() => {
       <h1>Extensões para o DCC</h1>
       <div class="links">
         <a href="/">Home</a>
-        <a href="/sobre">Sobre esse site</a>
+        <a href="/sobre">Sobre</a>
       </div>
     </header>
   );
