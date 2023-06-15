@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-flow: row;
+  gap: 10px;
+}

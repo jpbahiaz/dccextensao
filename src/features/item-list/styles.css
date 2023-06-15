@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+
+.item-list {
+  min-height: 0;
+  display: flex;
+  flex-flow: column;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.list-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+.list-header > div {
+  font-weight: bold;
+}

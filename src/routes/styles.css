@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  max-width: 800px;
+  padding: 20px;
+  background: white;
+  margin: 30px auto 0;
+  max-height: calc(100vh - 90px);
+}
